@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+main{
+    line-height: 40px;
+    font-size: 1em;
+}
+header{
+        width: 100%;
+        height: 200px;
+        font-family: 'Passion One', cursive;
+        font-weight: 400;
+        font-size: 6em;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        padding-top: 60px;
+        
+        
+      
+}
+nav{
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 0.4em;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-weight: bold;
+    
+   
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+
+p {
+    font-family: 'Sriracha', cursive;
+    max-width: 500px;
+    font-size: 2.5em;
+    padding: 10px;
+    margin-left: 30px;
+    
+  
+    
+    
+}
+
+br{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+section.img1{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url("imagens/background001.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    box-shadow: inset 0px 1px 15px rgba(0, 0, 0, 0.822);
+}
+
+section.img1 > div{
+    position: absolute;
+    font-family: 'Sriracha', cursive;
+    color: white;
+    max-width: 500px;
+    font-size: 2.5em;
+    background-color: rgba(0, 0, 0, 0.589);
+    margin-left: 30px;
+    padding: 5px;
+
+}
+
+
+
+section.img2{
+    width: 100%;
+    height: 800px;
+    background-image: url("imagens/background002.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    box-shadow: inset 0px 1px 15px rgba(0, 0, 0, 0.822);
+
+}
+
+section.img2 > div{
+    font-family: 'Sriracha', cursive;
+    color: white;
+    max-width: 500px;
+    font-size: 2.5em;
+    background-color: rgba(0, 0, 0, 0.589);
+    margin-left: 30px;
+    padding: 5px;
+
+}
+
+footer > div{
+    background-color: black;
+    color: white;
+    margin-bottom: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    padding: 10px;
+    text-align: center;
+    margin-top: 200px;
+}
